@@ -1,0 +1,12 @@
+tensorflow
+pandas 
+numpy 
+scikit-learn
+tensorboard
+matplotlib
+scikeras
+fastapi
+uvicorn
+pillow
+tensorflow-serving-api
+python-multipart
