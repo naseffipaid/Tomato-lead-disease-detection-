@@ -31,7 +31,7 @@ const App = () => {
       setResult(null);
 
       const response = await axios.post(
-        import.meta.env.VITE_REACT_APP_API_URL,
+        "https://leaf-disease-backend-j62p.onrender.com",
         formData,
         { headers: { "Content-Type": "multipart/form-data" } }
       );

@@ -9,7 +9,7 @@ import tensorflow as tf
 app = FastAPI()
 origins = [
     "http://localhost",
-    "https://tomatoleafdetection.netlify.app"
+    "https://tomatoleafdetection.netlify.app",
     "http://localhost:5173",
 ]
 app.add_middleware(
